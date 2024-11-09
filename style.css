@@ -1,0 +1,91 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+h1{
+    text-align: center;
+    color: rgb(12, 2, 29);
+   
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #0C1844;
+    border-radius: 8px;
+    box-shadow:0 4px 8px #0B192C;
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid ;
+    border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+background-color:rgb(47, 47, 151) ;
+
+}
+legend{
+    font-weight: bolder;
+    font-size:30px;
+    text-align: left;
+    color:whitesmoke ;
+}
+label{
+    display: block;
+    margin-top:10px;
+    color:whitesmoke ;
+    font-size: 20px;
+}
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #000a0e;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{
+    display: block;
+    width: 100%;
+    padding:10px;
+    background-color:#ec0c0c;
+    color:whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*cv area*/
+button:hover{
+    background-color:#FF6500;
+}
+#resumeOutput{
+    font-size: bold;
+    font-weight: 18px;
+    color: #f0f4f8;
+    max-width: 700px;
+    margin:auto;
+    padding: 20px;
+    border: 2px solid #c80000;
+    border-radius: 8px;
+    background-color:#020911 ;
+    box-shadow: #030b14;
+    
+}
+#resumeOutput h2{
+    color: #860707;
+}
+.ProfilePicture {
+    display:block;
+    margin: 0 auto;
+    border: 2px solid #c80000;
+    box-shadow: 0 6px 10px#990404;
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

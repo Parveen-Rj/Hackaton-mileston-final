@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h1>Milestone:5 Unique Path and Shareble Link Task 1 By Parveen Malik</h1>
+
+  <form id="resumeForm">
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+
+        <label for="name">Name:</label>
+        <Input type="text" id="name"name="name" required><br>
+
+        <label for="email">Email:</label>   
+        <input type="email"id="email" name="email"required>
+        <label for="Mobile No">Mobile No:</label> 
+        <input type="tel"id="phone"name="phone" required>
+        <label for="Roll No"> Roll No:</label> 
+        <input type="tel"id="phone"name="phone" required>
+<!--profile picture-->
+<label for="profile picture" >Profile Picture</label>
+<input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+    </fieldset>
+
+    <fieldset>
+<legend>Educaton</legend>
+<label for="education">Educaton</label>
+<textarea id="education" name="education" rows="4" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Work Experience</legend>
+        <label for="experience">Experience</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills</label>
+                <textarea id="skills" name="skills" rows="4" required></textarea><br>
+                    </fieldset>
+                    <button type="submit">Generate Resume Below</button>
+  </form> 
+  <div id="resumeOutput">
+    <!--Resume will be Generate Resume Below-->
+
+  </div>
+  <script src="script.js"defer></script>
+</body>
+</html>
